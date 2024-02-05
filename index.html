@@ -1,64 +1,121 @@
 <!DOCTYPE html>
-<html lan="en">
+<html lang="pt-br">
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name-="viewport" content="width-device-width, initial-scale-1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;800&family=Roboto&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./main.css">
-        <title>Papelaria</title>
+        <title>Papelaria 011</title>
     </head>
+    
     <body>
         <header>
-            <div class="container">
-                <h1>Papelaria</h1>
-                <nav>
+            <div class="container-papelaria container-flex">
+                <h1>Papelaria 011</h1>
+                <div class="menu-papelaria">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <nav>
+                <div class="container-papelaria">
                     <ul>
-                        <li> 
-                            <a href="#about">Sobre Nós</a>
+                        <li>
+                            <a href="">Sobre</a>
                         </li>
-                        <li> 
-                            <a href="#products">Nossos produtos</a>
+                        <li>
+                            <a href="">Produtos</a>
+                        </li>
+                        <li>
+                            <a href="">Contato</a>
                         </li>
                     </ul>
-                </nav>
-            </div> 
+                </div>
+            </nav>
         </header>
-        <div class="container">
-            <h2>Sobre nós</h2>
-            <section id="about"class="about-section">
-                <img src="https://images.tcdn.com.br/img/img_prod/1231849/1697548949_categoria-papelaria.jpg" alt="Imagem da Loja">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod metus eget efficitur bibendum.
-                Curabitur eget ligula vel libero luctus scelerisque in a elit. Nullam scelerisque tristique tristique.</p>
-            </section>
-            <h2>Produtos</h2>
-            <section id="products" class="products-section">
-                <div class="product">
-                    <img src="https://acdn.mitiendanube.com/stores/002/115/076/products/lapis-de-escrever-com-borracha-perolado-leoleo-41-cee47b14a33a11095016689557250797-640-0.jpeg" alt="Produto 1">
-                    <h3>Produto 1</h3>
-                    <p>Descrição do Produto 1.</p>
-                    <button>Adicionar ao Carrinho</button>
-                </div>
-                <div class="product">
-                    <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-lnmuomrkcbf0b3" alt="Produto 2">
-                    <h3>Produto 2</h3>
-                    <p>Descrição do Produto 2.</p>
-                    <button>Adicionar ao Carrinho</button>
-                </div>
-                <div class="product">
-                    <img src="https://down-br.img.susercontent.com/file/sg-11134201-7qvdv-lgwqj3lc9xtsfd" alt="Produto 3">
-                    <h3>Produto 3</h3>
-                    <p>Descrição do Produto 3.</p>
-                    <button>Adicionar ao Carrinho</button>
-                </div>
-                    <div class="product">
-                    <img src="https://down-br.img.susercontent.com/file/br-11134207-7qukw-lfzq6fik3g8u39" alt="Produto 4">
-                    <h3>Produto 4</h3>
-                    <p>Descrição do Produto 4.</p>
-                    <button>Adicionar ao Carrinho</button>
-                </div>
-            </section>
-        </div>
+        
+        <section id="id-sobre">
+            <div class="container-papelaria container-flex">
+                <h2>Sobre</h2>
+                <div class="container-flex">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae quidem assumenda eius aperiam impedit perspiciatis, provident, exercitationem blanditiis eum dicta autem neque temporibus voluptatibus nihil, dolor veritatis voluptatem corporis voluptatum.</p>
+            </div>
+            <img src="https://images.tcdn.com.br/img/img_prod/1231849/1697548949_categoria-papelaria.jpg" alt="Capa sobre">
+        </section>
+        
+        <section id="id-produtos">
+            <div class="container-papelaria container-flex">
+                <h2>Produtos</h2>
+                <ul class="container-flex lista-produtos">
+                    <li>
+                        <img src="https://img.kalunga.com.br/fotosdeprodutos/176072d_1.jpg" alt="Caneta">
+                        <h3>Caneta</h3>
+                        <p>Cor: azul</p>
+                        <strong>R$ 3,00</strong>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </li>
+                    <li class="item-papelaria-produtos">
+                        <img src="https://img.kalunga.com.br/fotosdeprodutos/773603d.jpg" alt="Mochila">
+                        <h3>Mochila</h3>
+                        <p>Cor: aquamarine</p>
+                        <strong>R$ 135,00</strong>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </li>
+                    <li>
+                        <img src="https://img.kalunga.com.br/fotosdeprodutos/389505d.jpg" alt="Lápis de cor">
+                        <h3>Lápis de cor</h3>
+                        <p>Cor: 12 cores + 2 unidades de gradite HB</p>
+                        <strong>R$ 25,00</strong>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </li>
+                    <li>
+                        <img src="https://img.kalunga.com.br/fotosdeprodutos/140505d.jpg" alt="Caderno">
+                        <h3>Caderno</h3>
+                        <p> Cor: lilás</p>
+                        <strong>R$ 45,00</strong>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="id-contato">
+            <div  class=" container-papelaria lista-contato">
+                <h2>Contato</h2>
+                <form>
+                    <div class="form-contato">
+                        <label for="label-nome">Nome</label>
+                        <input type="text" id="label-nome" name="nome">
+                    </div>
+                    <div class="form-contato">
+                        <label for="label-telefone">Telefone</label>
+                        <input type="tel" id="label-telefone" name="telefone">
+                    </div>
+                    <div class="form-contato">
+                        <label for="label-email">Email</label>
+                        <input type="email" id="label-email" name="email">
+                    </div>
+                    <div class="form-contato">
+                        <label for="label-assunto">Assunto</label>
+                        <input type="assunto" id="label-assunto" name="assunto">
+                    </div>
+                    <div class="form-contato">
+                        <label for="label-mensagem">Mensagem</label>
+                        <textarea id="label-mensagem" name="mensagem"></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+        
+        <footer id="id-footer">
+            <div class="container-papelaria container-flex">
+                <p>2024 &copy; Papelaria 011 - Todos os direitos reservados</p>
+            </div>
+        </footer>
     </body>
 </html>
