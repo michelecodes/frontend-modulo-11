@@ -175,20 +175,16 @@ footer .container-papelaria {
     align-items: center;
 }
 
-/* Estilos para Desktop ( 1024px) */
-@media only screen and (min-width: 1024px) {
-    body {
-    }
-}
-    
-/* Estilos para Tablet ( 641px até 1023px) */
 @media only screen and (min-width: 641px) and (max-width: 1023px) {
-    body {
-    }
+  .lista-produtos li {
+    max-width: 40%; 
+    margin-right: 4%; 
+  }
 }
-    
-/* Estilos para Mobile ( 640px) */
+
 @media only screen and (max-width: 640px) {
-    body {
-    }
+  .lista-produtos li {
+    max-width: 100%; 
+    margin-right: 0; 
+  }
 }
